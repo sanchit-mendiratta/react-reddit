@@ -1,0 +1,59 @@
+h1, p {
+  font-family: Lato;
+}
+.navbar {
+  background: #ff6600;
+  text-align: center;
+}
+.header {
+  padding: 10px;
+  background: #dae0e6;
+}
+.mr10 {
+  margin-right: 10px;
+}
+.posts {
+  padding-left: 30px;
+  background: #f6f6ef;
+}
+.posts .post {
+  padding: 10px 0px;
+}
+.posts .post a {
+  color: #000000;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.posts .post .ups {
+  margin-right: 20px;
+}
+
+.posts .post .star {
+  font-size: 20px;
+}
+
+.posts .post .favorite {
+  font-size: 20px;
+}
+
+.star::after {
+    content: '☆';
+    cursor: pointer;
+}
+
+.star:hover::after,
+.favorite::after {
+    content: '★';
+    cursor: pointer;
+}
+
+.cross::after {
+    content: 'X';
+    cursor: pointer;
+}
+
+.error {
+  background: #ffffe0;
+  margin-top: 15px;
+}
